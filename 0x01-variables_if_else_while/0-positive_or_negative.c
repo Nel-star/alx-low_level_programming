@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main -  Prints a random number and states whether it is positive, negative, or zero. 
  *
  * Description: print value of n satus; zero, positive or negative
  *
