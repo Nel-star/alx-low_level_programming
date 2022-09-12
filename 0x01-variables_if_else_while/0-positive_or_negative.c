@@ -10,7 +10,7 @@
  *
  * Description: print value of n satus; zero, positive or negative
  *
- * Return 0 Always(success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
