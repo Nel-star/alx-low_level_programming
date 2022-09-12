@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /*
- * main - start/entry point
+ * main - Entry point
  *
  * Description: print value of n satus; zero, positive or negative
  *
@@ -29,4 +29,4 @@ int main(void)
 		printf("%i is negative\n", n);
 
 	return (0);
-}	
+}
