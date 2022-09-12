@@ -6,8 +6,8 @@
 #include <stdio.h>
 
 /*
- * main -  Prints a random number and states whether it is positive, negative, or zero. 
- *
+ * main -  Prints a random number and states whether
+ * it is positive, negative, or zero.
  * Description: print value of n satus; zero, positive or negative
  *
  * Return: Always 0 (Success)
