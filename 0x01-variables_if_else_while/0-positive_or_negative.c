@@ -1,27 +1,31 @@
-/*
- * File: 0-positive_or_negative.c
- */
 #include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 
-/*more headers goes there*/
+#include <time.h>
+
+/* more headers goes there */
+
+
 
 /* betty style doc for function main goes there */
+
 int main(void)
+
 {
-	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+		int n;
 
-	/*actual code*/
-	if (n > 0)
-		printf("%i is positive\n", n);
-	else if (n == 0)
-		printf("%i is zero\n", n);
-	else
-		printf("%i is negative\n", n);
+		srand(time(0));
+		n = rand() - RAND_MAX / 2;
+		/* your code goes there */
 
-	return (0);
+		digit = n % 10; /*gets last digit*/
+
+		if (digit > 5)
+			printf("Last digit of %i is %i and is greater than 5\n", n, digit);
+		else if (digit == 0)
+			printf("Last digit of %i is %i and is 0\n", n, digit);
+		else if (digit < 6 && digit != 0)
+			printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
+
+		return (0);
 }
