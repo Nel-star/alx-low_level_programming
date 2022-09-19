@@ -1,1 +1,1 @@
-string characters
+print arrays
