@@ -1,1 +1,1 @@
-prints string
+reverse
