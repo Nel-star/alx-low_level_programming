@@ -8,21 +8,22 @@
  */
 void puts_half(char *str)
 {
-	int l, n;
+	int i, last;
 
-	for (l = 0; str[l] != '\0'; ++l)
-		;
+	i = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
 
-	if (l % 2 == 0)
+	last = (i + 1) / 2;
+
+	for (i = last; str[i]; i++)
 	{
-		for (n = l / 2; str[n] != '\0'; ++n)
-			_putchar(str[n]);
+		_putchar (str[i]);
 	}
-	else
-	{
-		for (n = ((l - 1) / 2) + 1; str[n] != '\0'; ++n)
-			_putchar(str[n]);
-	}
-	_putchar('\n');
+
+	_putchar ('\n');
+
+
 }
-
