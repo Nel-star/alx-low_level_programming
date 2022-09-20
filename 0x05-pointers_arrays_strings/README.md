@@ -1,1 +1,1 @@
-reverse strings
+half a string
