@@ -1,1 +1,1 @@
-half a string
+copies string
