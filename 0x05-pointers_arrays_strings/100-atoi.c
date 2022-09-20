@@ -15,8 +15,8 @@ int is_numerical(unsigned int n)
  * _atoi - convert a string to an integer
  * @s: String
  *
- * Return : num
- */
+ * Return : converted integer from string
+ */  
 int _atoi(char *s)
 {
 	unsigned int number, i;
@@ -39,5 +39,5 @@ int _atoi(char *s)
 		}
 	}
 
-	return (number *sign);
+	return (number * sign);
 }
