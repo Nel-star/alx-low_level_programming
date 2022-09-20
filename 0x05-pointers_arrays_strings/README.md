@@ -1,1 +1,1 @@
-copies string
+string to interger
